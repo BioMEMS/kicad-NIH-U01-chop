@@ -1,0 +1,11 @@
+### Footprint positions - created on Thu Nov 16 14:53:45 2023 ###
+### Printed by KiCad version 7.0.6
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                                            PosX       PosY       Rot  Side
+J1        HL1       Molex_SL_171975-0004_1x04_P2.54mm_Horizontal   142.4476   -62.9333  180.0000  bottom
+J3        HL3       Molex_SL_171975-0004_1x04_P2.54mm_Horizontal   173.1309   -62.9841  180.0000  bottom
+J5        HL5       Molex_SL_171975-0004_1x04_P2.54mm_Horizontal   188.9086  -104.1273   90.0000  bottom
+J7        HL7       Molex_SL_171975-0004_1x04_P2.54mm_Horizontal   166.9416  -126.1793    0.0000  bottom
+J8        GC_RTD    Molex_SL_171975-0006_1x06_P2.54mm_Horizontal   125.2886  -126.1443    0.0000  bottom
+## End

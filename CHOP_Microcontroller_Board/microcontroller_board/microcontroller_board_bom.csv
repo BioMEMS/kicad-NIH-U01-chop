@@ -1,0 +1,44 @@
+#,Reference,Qty/Board,Value,Footprint,DNP,Part #,Total Q w/ overage,Vendor,Description
+1,C1,1,10n,NYSEARCH:C_0603_1608Metric_HandSolder,FALSE,GRT1885C1E103FA02D,5,digikey,"10000 pF ±1% 25V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+2,"C2, C3, C20, CFilt1, CFilt2",5,100n,NYSEARCH:C_0603_1608Metric_HandSolder,FALSE,KGM15BR71H104JT,25,digikey,0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)
+3,"C4, C5, C12, C13, C16, C17, C23",7,0.1u,NYSEARCH:C_0603_1608Metric_HandSolder,FALSE,KGM15BR71H104JT,35,digikey,0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)
+4,"C6, C7, C10, C11, C21",5,10u,NYSEARCH:C_0603_1608Metric_HandSolder,FALSE,GRM188R61A106KE69D,25,digikey,10 µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)
+5,"C8, C9",2,8.2n,Capacitor_SMD:C_0805_2012Metric_Pad1.29x1.40mm_HandSolder,FALSE,CGA3E2C0G1H822J080AE,10,digikey,"8200 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+6,"C14, C15, C18, C19",4,6.8u,Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A,FALSE,T498A685K016ATE2K6,20,digikey,6.8 µF Molded Tantalum Capacitors 16 V 1206 (3216 Metric) 2.6Ohm
+7,"D1, D2",2,MM3Z3V0T1G,Diode_SMD:D_SOD-323,FALSE,MM3Z3V0T1G,10,digikey,Zener Diode 3 V 300 mW ±7% Surface Mount SOD-323
+8,"D3, D4, D5, D6",4,BAT48,NYSEARCH:D_SOD-323_STMicroelectronics,FALSE,SD103AWS-HE3-18,20,digikey,Diode 40 V 350mA Surface Mount SOD-323
+9,J1,1,HEATER_SIGNAL_1,Connector_Molex:Molex_Micro-Fit_3.0_43045-1400_2x07_P3.00mm_Horizontal,FALSE,0430451400,5,digikey,"Connector Header Through Hole, Right Angle 14 position 0.118"" (3.00mm)"
+10,J2,1,HEATER_SIGNAL_2,Connector_Molex:Molex_Micro-Fit_3.0_43045-1600_2x08_P3.00mm_Horizontal,FALSE,0430451600,5,digikey,"Connector Header Through Hole, Right Angle 16 position 0.118"" (3.00mm)"
+11,J5,1,P1,Connector_Molex:Molex_Micro-Fit_3.0_43650-0400_1x04_P3.00mm_Horizontal,FALSE,0436500400,5,digikey,"Connector Header Through Hole, Right Angle 4 position 0.118"" (3.00mm)"
+12,J6,1,SF1,Connector_Molex:Molex_Micro-Fit_3.0_43650-0500_1x05_P3.00mm_Horizontal,FALSE,0436500500,5,digikey,"Connector Header Through Hole, Right Angle 5 position 0.118"" (3.00mm)"
+13,J7,1,SF2,Connector_Molex:Molex_Micro-Fit_3.0_43650-0500_1x05_P3.00mm_Horizontal,FALSE,0436500500,5,digikey,"Connector Header Through Hole, Right Angle 5 position 0.118"" (3.00mm)"
+14,J8,1,Flow Control Board,Connector_Molex:Molex_Micro-Fit_3.0_43650-0700_1x07_P3.00mm_Horizontal,FALSE,0436500700,5,digikey,"Connector Header Through Hole, Right Angle 7 position 0.118"" (3.00mm)"
+15,J9,1,MFC,Connector_Molex:Molex_Micro-Fit_3.0_43045-1000_2x05_P3.00mm_Horizontal,FALSE,0430451000,5,digikey,"Connector Header Through Hole, Right Angle 10 position 0.118"" (3.00mm)"
+16,J10,1,POWER_HEAT,Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal,FALSE,0430450800,5,digikey,"Connector Header Through Hole, Right Angle 8 position 0.118"" (3.00mm)"
+17,J11,1,Fan,Connector_Molex:Molex_Micro-Fit_3.0_43650-0300_1x03_P3.00mm_Horizontal,FALSE,0436500300,5,digikey,"Connector Header Through Hole, Right Angle 3 position 0.118"" (3.00mm)"
+18,J12,1,HVPS,Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal,FALSE,0436500200,5,digikey,"Connector Header Through Hole, Right Angle 2 position 0.118"" (3.00mm)"
+19,J13,1,AMBIENT_TEMP,Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal,FALSE,0436500200,5,digikey,"Connector Header Through Hole, Right Angle 2 position 0.118"" (3.00mm)"
+20,J14,1,DMS_Output,Connector_Molex:Molex_Micro-Fit_3.0_43650-0300_1x03_P3.00mm_Horizontal,FALSE,0436500300,5,digikey,"Connector Header Through Hole, Right Angle 3 position 0.118"" (3.00mm)"
+21,J15,1,Power_IN,NYSEARCH:Molex_Micro-Fit_3.0_43045-1000_2x05_P3.00mm_Horizontal,FALSE,0430451000,5,digikey,"Connector Header Through Hole, Right Angle 10 position 0.118"" (3.00mm)"
+22,J16,1,P1_FB,Connector_Molex:Molex_Micro-Fit_3.0_43650-0300_1x03_P3.00mm_Horizontal,FALSE,0436500300,5,digikey,"Connector Header Through Hole, Right Angle 3 position 0.118"" (3.00mm)"
+23,"JP1, JP2, JP3, JP4",4,SJ_2_Open,NYSEARCH:R_0603_1608Metric,FALSE,CRCW06030000Z0EAHP,20,digikey,"0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film"
+24,"MK1, MK2, MK3, MK4",4,Mounting_Hole,MountingHole:MountingHole_3.2mm_M3,TRUE,,0,,
+25,"R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R29, R30, R31, R33",21,4.7k,NYSEARCH:R_0603_1608Metric,FALSE,RMCF0603FT4K70,105,digikey,"4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+26,"R18, R19, R20, R21, RFilt1, RFilt2",6,1k,NYSEARCH:R_0603_1608Metric,FALSE,RMCF0603FT1K00,30,digikey,"1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+27,"R22, R23",2,0.1,NYSEARCH:R_0603_1608Metric,FALSE,CRL0603-FW-R100ELF,10,digikey,"100 mOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Thick Film"
+28,"R24, R25, R26, R27",4,10,NYSEARCH:R_0603_1608Metric,FALSE,RMCF0603FT10R0,20,digikey,"10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+29,R28,1,10k,NYSEARCH:R_0603_1608Metric,FALSE,RMCF0603FT10K0,5,digikey,"10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+30,R34,1,220,NYSEARCH:R_0603_1608Metric,FALSE,RC0603JR-13220RL,5,digikey,"220 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+31,R35,1,330,NYSEARCH:R_0603_1608Metric,FALSE,CR0603-JW-331ELF,5,digikey,"330 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+32,TP1,1,Det_P_TP,TestPoint:TestPoint_Pad_1.0x1.0mm,TRUE,,0,,
+33,TP2,1,Det_N_TP,TestPoint:TestPoint_Pad_1.0x1.0mm,TRUE,,0,,
+34,U1,1,Teensy4.1_Mounted,NIH-SCENT:Teensy41_Mounted,FALSE,DEV-16771,5,digikey,RT1062 Teensy 4.1 i.MX ARM® Cortex®-M7 MPU Embedded Evaluation Board
+35,U2,1,MAX31855,NYSEARCH:SO-8_Maxim,FALSE,MAX31855KASA+T,5,digikey,IC CONV THERMOCOUPLE-DGTL SOIC
+36,U3,1,TLV2333,Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm,FALSE,TLV2333IDGKT,5,digikey,Zero-Drift Amplifier 2 Circuit Rail-to-Rail 8-VSSOP
+37,"U4, U5",2,THS4031,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,FALSE,THS4031CDR,10,digikey,Voltage Feedback Amplifier 1 Circuit 8-SOIC
+38,U6,1,ADS8353_TSSOP-16,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,FALSE,ADS8353IPWR,5,digikey,16 Bit Analog to Digital Converter 2 Input 2 SAR 16-TSSOP
+39,U7,1,Ref2025,NYSEARCH:SOT23-5_Ref2025,FALSE,REF2025AIDDCR,5,digikey,"Series Voltage Reference IC Fixed 1.24V, 2.5V V ±0.05% 20 mA SOT-23-THIN"
+40,U9,1,SP3485CN,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,FALSE,SP3485CN-L/TR,5,digikey,"1/1 Transceiver Half RS422, RS485 8-SOIC"
+41,U10,1,CD74HC154,Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm,FALSE,CD74HC154M96,5,digikey,Decoder/Demultiplexer 1 x 4:16 24-SOIC
+42,Board,4,n/a,n/a,n/a,n/a,n/a,JLC,
+43,"pin_socket1, pin_socket2",2,,Connector_PinSocket_2.54mm:PinSocket_1x24_P2.54mm_Vertical,FALSE,PPPC241LFBN-RC,10,digikey,"24 Position Header Connector 0.100"" (2.54mm) Through Hole Gold"

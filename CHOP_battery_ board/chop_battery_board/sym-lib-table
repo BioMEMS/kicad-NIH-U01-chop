@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "chop_battery_library")(type "KiCad")(uri "C:/Users/Vimla/OneDrive/Documents/GitHub/kicad-shared/symbols/chop_battery_library.kicad_sym")(options "")(descr ""))
+)

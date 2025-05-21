@@ -1,0 +1,3105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\griff\OneDrive\Documents\GitHub\kicad-NIH-U01-uPC-GC-DMS\controller-heat\controller-heat.kicad_sch</source>
+    <date>10/25/2023 9:11:42 PM</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>controller-heat.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pwm_heater_drivers.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>thermocouple_readout.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>rtd_readout.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>safety_cutoff.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>HL1</value>
+      <footprint>NYSEARCH:Molex_SL_171975-0004_1x04_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller-heat.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26528370-fb13-42f0-962a-329663f18fcc</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>HL2</value>
+      <footprint>NYSEARCH:Molex_SL_171975-0004_1x04_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller-heat.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fa8c31b-a546-4a07-8e5c-e9ffefb824bc</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>HL3</value>
+      <footprint>NYSEARCH:Molex_SL_171975-0004_1x04_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller-heat.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e262b66e-ed65-4109-82e1-e9665ca20e8d</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>HL4</value>
+      <footprint>NYSEARCH:Molex_SL_171975-0004_1x04_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller-heat.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8999b50-d9e1-4824-ad70-0a236ba909f4</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>HL5</value>
+      <footprint>NYSEARCH:Molex_SL_171975-0004_1x04_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller-heat.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83c0d9e9-85f3-420c-b795-b68cff7dd4d0</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>HL6</value>
+      <footprint>NYSEARCH:Molex_SL_171975-0004_1x04_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller-heat.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad095128-7c1a-4266-b4f0-62dc6df70628</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>HL7</value>
+      <footprint>NYSEARCH:Molex_SL_171975-0004_1x04_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller-heat.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>778cd8ef-7e25-4a2a-97d1-1f3f27356f0c</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>GC_RTD</value>
+      <footprint>NYSEARCH:Molex_SL_171975-0006_1x06_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller-heat.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b589d6a-bb97-42ca-a266-456d38adf27a</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>uPC_RTD</value>
+      <footprint>NYSEARCH:Molex_SL_171975-0006_1x06_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller-heat.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>523ab78c-58a7-4bbf-9e88-c2852526913f</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>DMS_RTD</value>
+      <footprint>NYSEARCH:Molex_SL_171975-0006_1x06_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller-heat.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f714eca3-60fd-4bc7-968e-cc5eb6ef22f0</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>SIGNAL1</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-1400_2x07_P3.00mm_Horizontal</footprint>
+      <libsource lib="conn" part="Conn_02x07_Top_Bottom" description="Generic connector, double row, 02x07, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller-heat.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x07, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fed577d1-eb3b-46fa-b6e4-f94e5e42a626</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>POWER</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal</footprint>
+      <libsource lib="conn" part="Conn_02x04_Top_Bottom" description="Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller-heat.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a65a501-4990-443d-ad0f-2d1cccb5d2c4</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>TC_SAFETY</value>
+      <footprint>NYSEARCH:Molex_SL_171975-0002_1x02_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller-heat.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9a04ea4-54af-4253-80ba-dab0f50892aa</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>SIGNAL2</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-1600_2x08_P3.00mm_Horizontal</footprint>
+      <libsource lib="conn" part="Conn_02x08_Top_Bottom" description="Generic connector, double row, 02x08, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller-heat.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x08, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10a571c5-730e-4de9-b096-86542e7e4d41</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>HLX</value>
+      <footprint>NYSEARCH:Molex_SL_171975-0004_1x04_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller-heat.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2518351b-8350-4ca8-a747-135041df2418</tstamps>
+    </comp>
+    <comp ref="MK1">
+      <value>Mounting_Hole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller-heat.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85541d86-771b-454a-96c8-6bbe7ddf171f</tstamps>
+    </comp>
+    <comp ref="MK2">
+      <value>Mounting_Hole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller-heat.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12aa0ff0-a321-4634-9c64-6ab431fccd9b</tstamps>
+    </comp>
+    <comp ref="MK3">
+      <value>Mounting_Hole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller-heat.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca49d79f-719a-4113-8b95-3318bf22f730</tstamps>
+    </comp>
+    <comp ref="MK4">
+      <value>Mounting_Hole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller-heat.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28d5e7fd-f3f5-4d14-a15b-5c9ae224ab2d</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>025fc1ff-3262-4d13-8ecb-61f6b1f8c013</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>21cc0566-481e-4e40-bccd-dce954f5b693</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>6d756d69-bd84-40f9-8307-50137f795057</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1u</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>80c43650-feb2-4888-909c-3df03b5d683b</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1u</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>b9d44fd5-46fe-4dd8-94ed-68c7a3bc836c</tstamps>
+    </comp>
+    <comp ref="C59">
+      <value>1u</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>4002855e-6fc3-48b7-8576-d29ac4ce28b7</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DMT6004LPS</value>
+      <footprint>NYSEARCH:PowerDI5060-8</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMT6004LPS.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="DMT6004LPS" description="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <property name="ki_description" value="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="ki_keywords" value="N-Channel MOSFET Logic-Level"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>08976204-3535-4368-957b-c81a1484869e</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>DMT6004LPS</value>
+      <footprint>NYSEARCH:PowerDI5060-8</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMT6004LPS.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="DMT6004LPS" description="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <property name="ki_description" value="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="ki_keywords" value="N-Channel MOSFET Logic-Level"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>8c5b58d6-92d8-4b73-ab9c-0134a1369416</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>DMT6004LPS</value>
+      <footprint>NYSEARCH:PowerDI5060-8</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMT6004LPS.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="DMT6004LPS" description="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <property name="ki_description" value="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="ki_keywords" value="N-Channel MOSFET Logic-Level"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>4fdb70d2-460e-48ec-973f-f2013156af77</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>DMT6004LPS</value>
+      <footprint>NYSEARCH:PowerDI5060-8</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMT6004LPS.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="DMT6004LPS" description="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <property name="ki_description" value="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="ki_keywords" value="N-Channel MOSFET Logic-Level"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>5f881ca5-40f8-40ee-a566-7930fd3e1a21</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>DMT6004LPS</value>
+      <footprint>NYSEARCH:PowerDI5060-8</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMT6004LPS.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="DMT6004LPS" description="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <property name="ki_description" value="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="ki_keywords" value="N-Channel MOSFET Logic-Level"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>2ca57ed3-63c5-413f-8dee-63212d3f6e85</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>DMT6004LPS</value>
+      <footprint>NYSEARCH:PowerDI5060-8</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMT6004LPS.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="DMT6004LPS" description="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <property name="ki_description" value="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="ki_keywords" value="N-Channel MOSFET Logic-Level"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>8e85eef0-8d3d-4e0c-bf36-cb74bb437fa1</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>DMT6004LPS</value>
+      <footprint>NYSEARCH:PowerDI5060-8</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMT6004LPS.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="DMT6004LPS" description="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <property name="ki_description" value="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="ki_keywords" value="N-Channel MOSFET Logic-Level"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>9913d216-6e4a-487c-a3c5-f95f2cd26a66</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>DMT6004LPS</value>
+      <footprint>NYSEARCH:PowerDI5060-8</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMT6004LPS.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="DMT6004LPS" description="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <property name="ki_description" value="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="ki_keywords" value="N-Channel MOSFET Logic-Level"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>c46a4735-f80a-44d1-a6f6-7a12edce354e</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>DMT6004LPS</value>
+      <footprint>NYSEARCH:PowerDI5060-8</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMT6004LPS.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="DMT6004LPS" description="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <property name="ki_description" value="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="ki_keywords" value="N-Channel MOSFET Logic-Level"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>45469eba-f19e-4f8a-938e-5235b8c23331</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>DMT6004LPS</value>
+      <footprint>NYSEARCH:PowerDI5060-8</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMT6004LPS.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="DMT6004LPS" description="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <property name="ki_description" value="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="ki_keywords" value="N-Channel MOSFET Logic-Level"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>758f3ef1-e16c-4da5-ac36-586a061a3a48</tstamps>
+    </comp>
+    <comp ref="Q12">
+      <value>DMT6004LPS</value>
+      <footprint>NYSEARCH:PowerDI5060-8</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMT6004LPS.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="DMT6004LPS" description="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <property name="ki_description" value="60V Vds, N-Channel MOSFET, 3V Logic Level"/>
+      <property name="ki_keywords" value="N-Channel MOSFET Logic-Level"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>a4d7f234-c6ae-485d-96ee-a90780cb4754</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>91070839-01d7-4304-9e20-6f2d61c94748</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>bdb48a86-8be4-48a3-b7df-72db4a556c00</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>6d800b1a-5b04-46d4-b2b9-bbebd7dd163d</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4.7k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>55f61e69-8300-4735-b116-242b8bc9688e</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>5b9672d9-ab75-467b-a04f-d589e6124e5b</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>4.7k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>33e6b772-f6b2-4bc9-abed-35241865fa45</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>4.7k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>b6a038af-3477-465e-8dc5-da4b0f7b95a2</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>4.7k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>32c1bd64-545b-4b3a-a96e-1d67b2656f7e</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>4.7k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>b069ff1e-a179-4190-9455-89ee4f3cc159</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>4.7k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>6ebe2180-3e89-45ca-b43e-25e9925c0137</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>bd1bad76-5cc0-43cc-9e51-af5d2bb9d6f4</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>6ffc6ce6-2e90-4cfe-91d5-662a21c50de3</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>100</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>e3a10b97-478d-4bfb-821c-96bd6fc4745e</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>100</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>957db56b-61e7-40ad-9196-8f3cc9cf87cc</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>100</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>b3866eb9-5f6d-4cfd-b9cb-81f8b4e53ea2</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>100</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>2b4e4861-0d6a-49ed-b4ae-3df287d83106</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>100</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>516c3339-2684-4895-8e06-aa7b420600f5</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>100</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>920ff1b3-ad05-45c6-8ac3-e9ebd66342a6</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>100</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>5584a59e-4ddf-4a7d-9095-778c4f3de706</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>100</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>c927cbb2-b40f-4fe6-93a2-06046d330a86</tstamps>
+    </comp>
+    <comp ref="R56">
+      <value>4.7k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>b986df16-93ab-4f1f-b21c-2e741c37674f</tstamps>
+    </comp>
+    <comp ref="R59">
+      <value>100</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>75307fee-e8ac-4cfb-8037-0405407d58c6</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TC4427</value>
+      <footprint>NYSEARCH:MSOP-8_3x3mm_P0.65mm_TI</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001422G.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="TC4427" description="1.5A Dual Non-Inverting High-Speed MOSFET Driver"/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <property name="ki_description" value="1.5A Dual Non-Inverting High-Speed MOSFET Driver"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>4dd528d0-61c2-4518-8dbd-2e9b08c0ffd0</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TC4427</value>
+      <footprint>NYSEARCH:MSOP-8_3x3mm_P0.65mm_TI</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001422G.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="TC4427" description="1.5A Dual Non-Inverting High-Speed MOSFET Driver"/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <property name="ki_description" value="1.5A Dual Non-Inverting High-Speed MOSFET Driver"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>0bf21ad1-ee35-49f5-80fb-fd3995a663c9</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TC4427</value>
+      <footprint>NYSEARCH:MSOP-8_3x3mm_P0.65mm_TI</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001422G.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="TC4427" description="1.5A Dual Non-Inverting High-Speed MOSFET Driver"/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <property name="ki_description" value="1.5A Dual Non-Inverting High-Speed MOSFET Driver"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>7d7ff3a5-3bd9-4e55-a8a8-f56a0385a854</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TC4427</value>
+      <footprint>NYSEARCH:MSOP-8_3x3mm_P0.65mm_TI</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001422G.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="TC4427" description="1.5A Dual Non-Inverting High-Speed MOSFET Driver"/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <property name="ki_description" value="1.5A Dual Non-Inverting High-Speed MOSFET Driver"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>e479bbd2-3579-4f59-b916-084df334cb8d</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>TC4427</value>
+      <footprint>NYSEARCH:MSOP-8_3x3mm_P0.65mm_TI</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001422G.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="TC4427" description="1.5A Dual Non-Inverting High-Speed MOSFET Driver"/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <property name="ki_description" value="1.5A Dual Non-Inverting High-Speed MOSFET Driver"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>1422018f-2b99-4263-864e-b9d8043c9ff1</tstamps>
+    </comp>
+    <comp ref="U21">
+      <value>TC4427</value>
+      <footprint>NYSEARCH:MSOP-8_3x3mm_P0.65mm_TI</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001422G.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="TC4427" description="1.5A Dual Non-Inverting High-Speed MOSFET Driver"/>
+      <property name="Sheetname" value="PWM Heater Drivers"/>
+      <property name="Sheetfile" value="pwm_heater_drivers.kicad_sch"/>
+      <property name="ki_description" value="1.5A Dual Non-Inverting High-Speed MOSFET Driver"/>
+      <sheetpath names="/PWM Heater Drivers/" tstamps="/159303dc-39f8-4f38-b334-62fd643758cd/"/>
+      <tstamps>615de915-83fe-48a8-9152-6b2a2ee0f377</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>95697441-ad46-4777-bfb5-caf4bb3756d9</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>eab0ca53-2ae0-4168-aa36-d116e85ba842</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>752f1999-62fe-430f-a322-7f0a583aa31c</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>46207bd5-e6be-4ff1-bb5c-f25ec9c30e66</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>560a4aa4-b5f5-4cc6-8a67-6a92070ee7ff</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>670791ba-52ee-4840-922f-02fa1e1ee3e2</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>27e783fd-60d4-457a-9ca3-1614605d6274</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>e157124c-8ff2-449f-aaf9-e54b2688d9fa</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>10n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>8654241b-9c3e-48f2-8664-5e47c1cc7321</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>10n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>bccf8e99-1572-4fda-874d-c5833edaaf2a</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>10n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>ffcceb71-2c74-4c8e-a40c-88ae3b44dfd2</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>bb3c7fd5-370c-43b3-97e9-45ed35d89bff</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>f93d03c7-5cd3-46aa-9d9f-2370fea7ad2f</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>b15deadb-c80e-4ba6-a3d4-3cf4d24dace6</tstamps>
+    </comp>
+    <comp ref="C60">
+      <value>10n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>7a66c8a0-1103-4e97-860e-059af86cbe81</tstamps>
+    </comp>
+    <comp ref="C61">
+      <value>100n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>3541787c-8a30-4dbe-bb43-7f056eeaf951</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>MAX31855</value>
+      <footprint>NYSEARCH:SO-8_Maxim</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="MAX31855" description="Cold-Junction Compensated TC Digital Converter"/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <property name="ki_description" value="Cold-Junction Compensated TC Digital Converter"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>5c1074ba-a689-4732-a1f6-3e616289b8bc</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>MAX31855</value>
+      <footprint>NYSEARCH:SO-8_Maxim</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="MAX31855" description="Cold-Junction Compensated TC Digital Converter"/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <property name="ki_description" value="Cold-Junction Compensated TC Digital Converter"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>d5e06b65-1dc4-4d32-9cfd-87300d060b75</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>MAX31855</value>
+      <footprint>NYSEARCH:SO-8_Maxim</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="MAX31855" description="Cold-Junction Compensated TC Digital Converter"/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <property name="ki_description" value="Cold-Junction Compensated TC Digital Converter"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>abd5c9bb-cc1c-4edf-b5fa-766124202eb5</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>MAX31855</value>
+      <footprint>NYSEARCH:SO-8_Maxim</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="MAX31855" description="Cold-Junction Compensated TC Digital Converter"/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <property name="ki_description" value="Cold-Junction Compensated TC Digital Converter"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>f28e6ff4-76e5-4978-bbfd-ad0106a2c2cd</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>MAX31855</value>
+      <footprint>NYSEARCH:SO-8_Maxim</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="MAX31855" description="Cold-Junction Compensated TC Digital Converter"/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <property name="ki_description" value="Cold-Junction Compensated TC Digital Converter"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>f2bb74fa-4917-4743-8629-0cb8a361cd47</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>MAX31855</value>
+      <footprint>NYSEARCH:SO-8_Maxim</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="MAX31855" description="Cold-Junction Compensated TC Digital Converter"/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <property name="ki_description" value="Cold-Junction Compensated TC Digital Converter"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>30cfb502-2204-4763-82da-7bcc5151d9b3</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>MAX31855</value>
+      <footprint>NYSEARCH:SO-8_Maxim</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="MAX31855" description="Cold-Junction Compensated TC Digital Converter"/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <property name="ki_description" value="Cold-Junction Compensated TC Digital Converter"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>0d1c81fb-6f74-4156-a39c-3203dcb98bbb</tstamps>
+    </comp>
+    <comp ref="U22">
+      <value>MAX31855</value>
+      <footprint>NYSEARCH:SO-8_Maxim</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</datasheet>
+      <libsource lib="NYSEARCH" part="MAX31855" description="Cold-Junction Compensated TC Digital Converter"/>
+      <property name="Sheetname" value="Thermocouple Readout"/>
+      <property name="Sheetfile" value="thermocouple_readout.kicad_sch"/>
+      <property name="ki_description" value="Cold-Junction Compensated TC Digital Converter"/>
+      <sheetpath names="/Thermocouple Readout/" tstamps="/30aff4c8-56c4-437c-a84d-b4a1fbd29c16/"/>
+      <tstamps>35bbc34e-7310-459b-ae05-09cea50809d1</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>101dbc63-6b70-4010-87a6-cca07278d744</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>01c17e43-8410-4e07-9434-5908d207e815</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>10n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>0af8f9e3-7698-4ada-b0ba-412f307ff2cb</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>10n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>29842fcc-fd59-470f-8e58-872eff309c9a</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>10n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>a3dfe398-eb68-4388-9392-e666d6aa3fd5</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>10n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>2b249893-6de4-4c34-a437-f3e5b512437c</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>1u</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>ed6eb669-452d-4ce5-a47f-4ebe4f1660c0</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>100n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>a04b34ab-dd09-495b-8c61-4ee377e9e9e3</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>100n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>2d8af6a9-f313-41a6-8356-bde8d499feb2</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>100n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>53f4fa4b-f559-4558-97c7-e9d392b0330b</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>100n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>792aa77a-665f-4401-a555-56e604dec3a3</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>10n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>b9f89fd2-e747-4ccd-89de-d8683fea5d89</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>10n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>d0c66ab8-c58e-4020-83fb-18e1caf9b6b9</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>10n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>bc7b2920-ac21-470d-b730-d6f6f7c8198a</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>10n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>f96340fe-5c21-4e65-951a-660df4fc9172</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>1u</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>bf4e8c6d-8c94-480f-a3bf-9a2d352f6be0</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>100n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>c4ef4653-5969-4a44-a2c7-ccb07b7f349e</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>100n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>cb90ab3d-8384-41c2-a2e3-3de12819f40e</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>100n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>6098823b-3fec-4026-865d-652a9741ff09</tstamps>
+    </comp>
+    <comp ref="C39">
+      <value>100n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>ade53f68-9475-41ee-a91f-ccff3b15393c</tstamps>
+    </comp>
+    <comp ref="C40">
+      <value>10n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>4ec3fa37-5511-4efe-9996-489de13a7fe1</tstamps>
+    </comp>
+    <comp ref="C41">
+      <value>10n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>6c8d3c6b-58a9-41cf-b329-514df5a36738</tstamps>
+    </comp>
+    <comp ref="C42">
+      <value>10n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>7511bafd-4f1a-449b-a947-2cabfc566cb0</tstamps>
+    </comp>
+    <comp ref="C43">
+      <value>10n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>ba9c26cf-b031-4b8c-bff1-3afba7ffa639</tstamps>
+    </comp>
+    <comp ref="C44">
+      <value>1u</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>5327e9ee-0e8c-484e-bb44-fa488c80021c</tstamps>
+    </comp>
+    <comp ref="C45">
+      <value>100n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>eba0dd54-7c89-4f43-b600-e1b764d4a550</tstamps>
+    </comp>
+    <comp ref="C46">
+      <value>100n</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>e3240f0f-db82-476c-b469-082d380d35fb</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>9.53k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>7ebfcdf8-d6cd-4e64-a0ec-b398a1e776a0</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>9.53k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>f813e6b4-77d2-4b48-8313-d90601f906d4</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10.5k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>f1770af0-99a2-4813-aa93-bff74a6a2a96</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>10.5k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>85c04e70-e6c2-4e6e-b222-18f4c0e6bf1a</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>10k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>19fa47f4-1526-4352-9ceb-f0a8eefab886</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>9.53k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>31e8e4d8-d8f0-4831-af74-de296bc879ed</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>9.53k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>2b84433a-046a-45a7-b687-c08a92bca08d</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>10.5k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>5df1c906-be9c-450e-9943-01f1f2d2e6e8</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>10.5k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>27f502a0-dabb-411f-8a08-4443f19b8263</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>10k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>a392f061-a590-4ca6-87d9-e5eec713fffb</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>9.53k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>65358d9f-9ee7-4a63-9976-53b15ff9e111</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>9.53k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>c316c23e-5e93-43be-95c2-5323bd4cf517</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>10.5k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>b195872f-601c-40e1-9867-f7f59df8ad96</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>10.5k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>e7d5eaa3-8fb7-4d8b-ba49-9e4846fc24cf</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>10k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>f7c8ddf9-73a9-45e8-bb49-9ed357ce5488</tstamps>
+    </comp>
+    <comp ref="R_REF1">
+      <value>2k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>89ea2b03-b0e2-4300-8dbd-15aa1a673e3f</tstamps>
+    </comp>
+    <comp ref="R_REF2">
+      <value>2k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>810cb251-17aa-4d38-869c-b077cc562b03</tstamps>
+    </comp>
+    <comp ref="R_REF3">
+      <value>2k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="NYSEARCH" part="R_Small" description=""/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>db02a8fb-103c-4c65-9725-61345c80a855</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>ADS1247</value>
+      <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ads1247.pdf?ts=1642614479757&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FADS1247</datasheet>
+      <fields>
+        <field name="MPN">ADS1247IPW</field>
+      </fields>
+      <libsource lib="NYSEARCH" part="ADS1247" description=""/>
+      <property name="MPN" value="ADS1247IPW"/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>06d7d427-72ac-44c8-9747-4e89babbad7a</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>ADS1247</value>
+      <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ads1247.pdf?ts=1642614479757&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FADS1247</datasheet>
+      <fields>
+        <field name="MPN">ADS1247IPW</field>
+      </fields>
+      <libsource lib="" part="ADS1247_2" description=""/>
+      <property name="MPN" value="ADS1247IPW"/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>148999cf-441e-475f-bdfd-bd56ac9ca605</tstamps>
+    </comp>
+    <comp ref="U15">
+      <value>ADS1247</value>
+      <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ads1247.pdf?ts=1642614479757&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FADS1247</datasheet>
+      <fields>
+        <field name="MPN">ADS1247IPW</field>
+      </fields>
+      <libsource lib="" part="ADS1247_1" description=""/>
+      <property name="MPN" value="ADS1247IPW"/>
+      <property name="Sheetname" value="RTD Readout"/>
+      <property name="Sheetfile" value="rtd_readout.kicad_sch"/>
+      <sheetpath names="/RTD Readout/" tstamps="/67f8be11-ada8-4b8e-b350-5f05b2031e00/"/>
+      <tstamps>34142463-9bab-4292-9e8e-8b12f63c0f07</tstamps>
+    </comp>
+    <comp ref="C47">
+      <value>10u</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>a6ec00f2-2afd-49b4-a99c-c7afa56f1014</tstamps>
+    </comp>
+    <comp ref="C48">
+      <value>10u</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>4527921d-8fcd-471b-a24d-34996b13f291</tstamps>
+    </comp>
+    <comp ref="C49">
+      <value>10u</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>d8e2900d-c1c9-4b00-acfa-0668501aa21d</tstamps>
+    </comp>
+    <comp ref="C51">
+      <value>0.1u</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>fa2c9fe2-1a6c-4325-a4b3-fc14717fe797</tstamps>
+    </comp>
+    <comp ref="C52">
+      <value>10u</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>e407dad0-3b8e-45b7-a1a5-4d859c7558b7</tstamps>
+    </comp>
+    <comp ref="C54">
+      <value>10u</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>44e6ad37-e111-4c3e-9ab2-cf76f60bb15d</tstamps>
+    </comp>
+    <comp ref="C55">
+      <value>10u</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>4c05aff7-1f1a-4605-8854-29d90d2ef715</tstamps>
+    </comp>
+    <comp ref="C56">
+      <value>0.1u</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>95eb3805-c27f-4602-a0b6-a099ba3c5aa9</tstamps>
+    </comp>
+    <comp ref="C57">
+      <value>0.1u</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>9d9208f7-8690-4309-a052-dfa957c48dc8</tstamps>
+    </comp>
+    <comp ref="C58">
+      <value>0.1u</value>
+      <footprint>NYSEARCH:C_0603_1608Metric_HandSolder</footprint>
+      <libsource lib="NYSEARCH" part="C_Small" description=""/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>eda65131-155a-4683-b273-7c329df177a8</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BAT48JFILM</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>www.st.com/resource/en/datasheet/bat48.pdf</datasheet>
+      <libsource lib="Diode" part="BAT48JFILM" description="40V 0.35A Small Signal Schottky Diode, SOD-323"/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <property name="ki_description" value="40V 0.35A Small Signal Schottky Diode, SOD-323"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>d9ad2481-6063-4d99-8052-98f2cad22cdc</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>J107F1CS1212VDC.36</value>
+      <footprint>Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</footprint>
+      <datasheet>https://www.citrelay.com/Catalog%20Pages/RelayCatalog/J107F.pdf</datasheet>
+      <libsource lib="NIH-SCENT" part="J107F1CS1212VDC.36" description="Sanyo SRD relay, Single Pole Miniature Power Relay,"/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <property name="ki_description" value="Sanyo SRD relay, Single Pole Miniature Power Relay,"/>
+      <property name="ki_keywords" value="Single Pole Relay SPDT"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>79a4125a-a71e-471a-a8c4-e7c2a4a2766b</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>67c6e5b8-61e6-422b-9d26-cad97dd8af65</tstamps>
+    </comp>
+    <comp ref="R49">
+      <value>1M</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>7a2c244f-0db2-4c6c-950f-60094fec2a5f</tstamps>
+    </comp>
+    <comp ref="R50">
+      <value>100</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>14033c59-a0c5-44e5-bb64-fc980154a4a4</tstamps>
+    </comp>
+    <comp ref="R51">
+      <value>100</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>5c5f3632-89bd-493f-970f-fef177ef5d1c</tstamps>
+    </comp>
+    <comp ref="R52">
+      <value>9k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>8a2a18c9-1778-441c-aa67-8dc3d3bf2f02</tstamps>
+    </comp>
+    <comp ref="R53">
+      <value>1k</value>
+      <footprint>NYSEARCH:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>13647c6f-38c1-4ab8-a6c9-694c659680ee</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>8264ce26-f3cb-49ac-824c-bffc74cb3d2a</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>65b5b102-56de-496a-8f7e-673cf092b807</tstamps>
+    </comp>
+    <comp ref="U16">
+      <value>AD8497</value>
+      <footprint>Package_SO:MSOP-8_3x3mm_P0.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/ad8494_8495_8496_8497.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="AD8497" description="Precision Thermocouple Amplifiers with Cold Junction Compensation, K-Type Thermocouple, 25 to 100C, MSOP-8"/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <property name="ki_description" value="Precision Thermocouple Amplifiers with Cold Junction Compensation, K-Type Thermocouple, 25 to 100C, MSOP-8"/>
+      <property name="ki_keywords" value="Thermocouple Amp"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>f89171f1-071f-4559-bf38-4bf700208fbe</tstamps>
+    </comp>
+    <comp ref="U17">
+      <value>LMC6081</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="NYSEARCH" part="LMC6081" description="Precision CMOS Single Operational Amplifier"/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <property name="ki_description" value="Precision CMOS Single Operational Amplifier"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>39d5bdb6-4d00-40bc-b511-b91e06eedb49</tstamps>
+    </comp>
+    <comp ref="U18">
+      <value>LP2950-3.3_TO92</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lp2950.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LP2950-3.3_TO92" description="Positive 100mA 30V Linear Micropower Voltage Regulator, Fixed Output 3.3V, TO-92"/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <property name="ki_description" value="Positive 100mA 30V Linear Micropower Voltage Regulator, Fixed Output 3.3V, TO-92"/>
+      <property name="ki_keywords" value="Micropower Voltage Regulator 100mA Positive"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>4e8cda9f-6a09-4219-b019-28171c0f8ecf</tstamps>
+    </comp>
+    <comp ref="U19">
+      <value>LMC6081</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="NYSEARCH" part="LMC6081" description="Precision CMOS Single Operational Amplifier"/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <property name="ki_description" value="Precision CMOS Single Operational Amplifier"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>1380869f-499d-43b9-a7db-1278acc2e445</tstamps>
+    </comp>
+    <comp ref="U20">
+      <value>ADC121S021</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <libsource lib="NIH-SCENT" part="ADC121S021" description=""/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>f9c3d976-6c7d-4830-ad26-442e755b09ed</tstamps>
+    </comp>
+    <comp ref="U23">
+      <value>NUD3124</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/308/1/NUD3124_D-2319507.pdf</datasheet>
+      <libsource lib="NIH-SCENT" part="NUD3124" description="Integrated Relay, Inductive Load Driver"/>
+      <property name="Sheetname" value="Safet Cutoff"/>
+      <property name="Sheetfile" value="safety_cutoff.kicad_sch"/>
+      <property name="ki_description" value="Integrated Relay, Inductive Load Driver"/>
+      <sheetpath names="/Safet Cutoff/" tstamps="/dd122d9c-42a3-4d8b-8d23-c14504b18d85/"/>
+      <tstamps>d278b721-3682-43df-ab39-8335c40e541a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="ADS1247_1">
+      <docs>https://www.ti.com/lit/ds/symlink/ads1247.pdf?ts=1642614479757&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FADS1247</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS1247</field>
+        <field name="Footprint">Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ads1247.pdf?ts=1642614479757&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FADS1247</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DVDD" type="power_in"/>
+        <pin num="2" name="DGND" type="power_in"/>
+        <pin num="3" name="CLK" type="input"/>
+        <pin num="4" name="N_Reset" type="input"/>
+        <pin num="5" name="REFP0" type="bidirectional"/>
+        <pin num="6" name="REFN0" type="bidirectional"/>
+        <pin num="7" name="VREFOUT" type="output"/>
+        <pin num="8" name="VREFCOM" type="power_in"/>
+        <pin num="9" name="AIN0" type="input"/>
+        <pin num="10" name="AIN1" type="input"/>
+        <pin num="11" name="AIN2" type="bidirectional"/>
+        <pin num="12" name="AIN3" type="bidirectional"/>
+        <pin num="13" name="AVSS" type="power_in"/>
+        <pin num="14" name="AVDD" type="power_in"/>
+        <pin num="15" name="Start" type="input"/>
+        <pin num="16" name="N_CS" type="input"/>
+        <pin num="17" name="N_DRDY" type="output"/>
+        <pin num="18" name="Dout" type="tri_state"/>
+        <pin num="19" name="DIN" type="input"/>
+        <pin num="20" name="SCLK" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="ADS1247_2">
+      <docs>https://www.ti.com/lit/ds/symlink/ads1247.pdf?ts=1642614479757&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FADS1247</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS1247</field>
+        <field name="Footprint">Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ads1247.pdf?ts=1642614479757&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FADS1247</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DVDD" type="power_in"/>
+        <pin num="2" name="DGND" type="power_in"/>
+        <pin num="3" name="CLK" type="input"/>
+        <pin num="4" name="N_Reset" type="input"/>
+        <pin num="5" name="REFP0" type="bidirectional"/>
+        <pin num="6" name="REFN0" type="bidirectional"/>
+        <pin num="7" name="VREFOUT" type="output"/>
+        <pin num="8" name="VREFCOM" type="power_in"/>
+        <pin num="9" name="AIN0" type="input"/>
+        <pin num="10" name="AIN1" type="input"/>
+        <pin num="11" name="AIN2" type="bidirectional"/>
+        <pin num="12" name="AIN3" type="bidirectional"/>
+        <pin num="13" name="AVSS" type="power_in"/>
+        <pin num="14" name="AVDD" type="power_in"/>
+        <pin num="15" name="Start" type="input"/>
+        <pin num="16" name="N_CS" type="input"/>
+        <pin num="17" name="N_DRDY" type="output"/>
+        <pin num="18" name="Dout" type="tri_state"/>
+        <pin num="19" name="DIN" type="input"/>
+        <pin num="20" name="SCLK" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAT48JFILM">
+      <description>40V 0.35A Small Signal Schottky Diode, SOD-323</description>
+      <docs>www.st.com/resource/en/datasheet/bat48.pdf</docs>
+      <footprints>
+        <fp>D*SOD?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT48JFILM</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323</field>
+        <field name="Datasheet">www.st.com/resource/en/datasheet/bat48.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="NIH-SCENT" part="ADC121S021">
+      <fields>
+        <field name="Reference">U20</field>
+        <field name="Value">ADC121S021</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VA" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Vin" type="input"/>
+        <pin num="4" name="SCLK" type="input"/>
+        <pin num="5" name="SDATA" type="tri_state"/>
+        <pin num="6" name="CS" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="NIH-SCENT" part="J107F1CS1212VDC.36">
+      <description>Sanyo SRD relay, Single Pole Miniature Power Relay,</description>
+      <docs>https://www.citrelay.com/Catalog%20Pages/RelayCatalog/J107F.pdf</docs>
+      <footprints>
+        <fp>Relay*SPDT*SANYOU*SRD*Series*Form*C*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K1</field>
+        <field name="Value">J107F1CS1212VDC.36</field>
+        <field name="Footprint">Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</field>
+        <field name="Datasheet">https://www.citrelay.com/Catalog%20Pages/RelayCatalog/J107F.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NIH-SCENT" part="NUD3124">
+      <description>Integrated Relay, Inductive Load Driver</description>
+      <docs>https://www.mouser.com/datasheet/2/308/1/NUD3124_D-2319507.pdf</docs>
+      <fields>
+        <field name="Reference">U23</field>
+        <field name="Value">NUD3124</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/308/1/NUD3124_D-2319507.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S1" type="power_in"/>
+        <pin num="2" name="G1" type="input"/>
+        <pin num="3" name="D2" type="input"/>
+        <pin num="4" name="S2" type="power_in"/>
+        <pin num="5" name="G2" type="input"/>
+        <pin num="6" name="D1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="NYSEARCH" part="ADS1247">
+      <docs>https://www.ti.com/lit/ds/symlink/ads1247.pdf?ts=1642614479757&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FADS1247</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS1247</field>
+        <field name="Footprint">Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ads1247.pdf?ts=1642614479757&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FADS1247</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DVDD" type="power_in"/>
+        <pin num="2" name="DGND" type="power_in"/>
+        <pin num="3" name="CLK" type="input"/>
+        <pin num="4" name="N_Reset" type="input"/>
+        <pin num="5" name="REFP0" type="bidirectional"/>
+        <pin num="6" name="REFN0" type="bidirectional"/>
+        <pin num="7" name="VREFOUT" type="output"/>
+        <pin num="8" name="VREFCOM" type="power_in"/>
+        <pin num="9" name="AIN0" type="input"/>
+        <pin num="10" name="AIN1" type="input"/>
+        <pin num="11" name="AIN2" type="bidirectional"/>
+        <pin num="12" name="AIN3" type="bidirectional"/>
+        <pin num="13" name="AVSS" type="power_in"/>
+        <pin num="14" name="AVDD" type="power_in"/>
+        <pin num="15" name="Start" type="input"/>
+        <pin num="16" name="N_CS" type="input"/>
+        <pin num="17" name="N_DRDY" type="output"/>
+        <pin num="18" name="Dout" type="tri_state"/>
+        <pin num="19" name="DIN" type="input"/>
+        <pin num="20" name="SCLK" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="NYSEARCH" part="C_Small">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NYSEARCH" part="DMT6004LPS">
+      <description>60V Vds, N-Channel MOSFET, 3V Logic Level</description>
+      <docs>https://www.diodes.com/assets/Datasheets/DMT6004LPS.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMT6004LPS</field>
+        <field name="Footprint">NYSEARCH:PowerDI5060-8</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMT6004LPS.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NYSEARCH" part="LMC6081">
+      <description>Precision CMOS Single Operational Amplifier</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMC6081</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="NYSEARCH" part="MAX31855">
+      <description>Cold-Junction Compensated TC Digital Converter</description>
+      <docs>https://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX31855</field>
+        <field name="Footprint">NYSEARCH:SO-8_MAXIM</field>
+        <field name="Datasheet">https://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="T-" type="input"/>
+        <pin num="3" name="T+" type="input"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="SCK" type="input"/>
+        <pin num="6" name="N_CS" type="input"/>
+        <pin num="7" name="MISO" type="input"/>
+        <pin num="8" name="DNC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="NYSEARCH" part="R_Small">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NYSEARCH" part="TC4427">
+      <description>1.5A Dual Non-Inverting High-Speed MOSFET Driver</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001422G.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TC4427</field>
+        <field name="Footprint">NYSEARCH:MSOP-8_3x3mm_P0.65mm_TI</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001422G.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="IN_A" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="IN_B" type="input"/>
+        <pin num="5" name="OUT_B" type="input"/>
+        <pin num="6" name="Vdd" type="input"/>
+        <pin num="7" name="OUT_A" type="input"/>
+        <pin num="8" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LP2950-3.3_TO92">
+      <description>Positive 100mA 30V Linear Micropower Voltage Regulator, Fixed Output 3.3V, TO-92</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lp2950.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP2950-3.3_TO92</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lp2950.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VO" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Temperature" part="AD8497">
+      <description>Precision Thermocouple Amplifiers with Cold Junction Compensation, K-Type Thermocouple, 25 to 100C, MSOP-8</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/ad8494_8495_8496_8497.pdf</docs>
+      <footprints>
+        <fp>MSOP*8*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD8497</field>
+        <field name="Footprint">Package_SO:MSOP-8_3x3mm_P0.65mm</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/ad8494_8495_8496_8497.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-IN" type="input"/>
+        <pin num="2" name="REF" type="input"/>
+        <pin num="3" name="-Vs" type="power_in"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="SENSE" type="passive"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="+Vs" type="power_in"/>
+        <pin num="8" name="+IN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_02x04_Top_Bottom">
+      <description>Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04_Top_Bottom</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_02x07_Top_Bottom">
+      <description>Generic connector, double row, 02x07, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x07_Top_Bottom</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_02x08_Top_Bottom">
+      <description>Generic connector, double row, 02x08, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Top_Bottom</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="NIH-SCENT">
+      <uri>C:/Users/griff/OneDrive/Documents/GitHub/kicad-shared/symbols/NIH-SCENT.kicad_sym</uri>
+    </library>
+    <library logical="NYSEARCH">
+      <uri>C:/Users/griff/OneDrive/Documents/GitHub/kicad-shared/symbols/NYSEARCH.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Temperature">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Sensor_Temperature.kicad_sym</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:/Users/griff/OneDrive/Documents/GitHub/kicad-shared/symbols/conn.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="C45" pin="1" pintype="passive"/>
+      <node ref="C46" pin="1" pintype="passive"/>
+      <node ref="C51" pin="2" pintype="passive"/>
+      <node ref="C52" pin="2" pintype="passive"/>
+      <node ref="C54" pin="1" pintype="passive"/>
+      <node ref="C55" pin="1" pintype="passive"/>
+      <node ref="C61" pin="1" pintype="passive"/>
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J12" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+      <node ref="R46" pin="1" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U10" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U11" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U12" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U13" pin="1" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="U13" pin="14" pinfunction="AVDD" pintype="power_in"/>
+      <node ref="U13" pin="15" pinfunction="Start" pintype="input"/>
+      <node ref="U14" pin="1" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="U14" pin="14" pinfunction="AVDD" pintype="power_in"/>
+      <node ref="U14" pin="15" pinfunction="Start" pintype="input"/>
+      <node ref="U15" pin="1" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="U15" pin="14" pinfunction="AVDD" pintype="power_in"/>
+      <node ref="U15" pin="15" pinfunction="Start" pintype="input"/>
+      <node ref="U16" pin="7" pinfunction="+Vs" pintype="power_in"/>
+      <node ref="U17" pin="7" pinfunction="V+" pintype="power_in"/>
+      <node ref="U18" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U19" pin="7" pinfunction="V+" pintype="power_in"/>
+      <node ref="U22" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U6" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U7" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U8" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U9" pin="4" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C59" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J12" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K1" pin="4" pintype="passive"/>
+      <node ref="K1" pin="5" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="Vdd" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="Vdd" pintype="input"/>
+      <node ref="U21" pin="6" pinfunction="Vdd" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="Vdd" pintype="input"/>
+      <node ref="U4" pin="6" pinfunction="Vdd" pintype="input"/>
+      <node ref="U5" pin="6" pinfunction="Vdd" pintype="input"/>
+    </net>
+    <net code="3" name="+24V">
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J12" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="4" name="/DMS_PWM_IN">
+      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="IN_B" pintype="input"/>
+    </net>
+    <net code="5" name="/DMS_RTD+">
+      <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R45" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/DMS_RTD++">
+      <node ref="J10" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U15" pin="12" pinfunction="AIN3" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/DMS_RTD-">
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/DMS_RTD--">
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="R_REF3" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/DMS_RTD_CS">
+      <node ref="J14" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U15" pin="16" pinfunction="N_CS" pintype="input"/>
+    </net>
+    <net code="10" name="/DMS_RTD_DRDY">
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U15" pin="17" pinfunction="N_DRDY" pintype="output"/>
+    </net>
+    <net code="11" name="/GC_PWM_IN">
+      <node ref="J14" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="IN_A" pintype="input"/>
+    </net>
+    <net code="12" name="/GC_RTD+">
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="/GC_RTD++">
+      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U13" pin="12" pinfunction="AIN3" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/GC_RTD-">
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="/GC_RTD--">
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R_REF1" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="/GC_RTD_CS">
+      <node ref="J14" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U13" pin="16" pinfunction="N_CS" pintype="input"/>
+    </net>
+    <net code="17" name="/GC_RTD_DRDY">
+      <node ref="J14" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U13" pin="17" pinfunction="N_DRDY" pintype="output"/>
+    </net>
+    <net code="18" name="/HL1_CS">
+      <node ref="J11" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="N_CS" pintype="input"/>
+    </net>
+    <net code="19" name="/HL1_PWM_IN">
+      <node ref="J11" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="IN_A" pintype="input"/>
+    </net>
+    <net code="20" name="/HL2_CS">
+      <node ref="J11" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U10" pin="6" pinfunction="N_CS" pintype="input"/>
+    </net>
+    <net code="21" name="/HL2_PWM_IN">
+      <node ref="J11" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="IN_B" pintype="input"/>
+    </net>
+    <net code="22" name="/HL3_CS">
+      <node ref="J11" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="N_CS" pintype="input"/>
+    </net>
+    <net code="23" name="/HL3_PWM_IN">
+      <node ref="J11" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="IN_A" pintype="input"/>
+    </net>
+    <net code="24" name="/HL4_CS">
+      <node ref="J11" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U11" pin="6" pinfunction="N_CS" pintype="input"/>
+    </net>
+    <net code="25" name="/HL4_PWM_IN">
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="IN_B" pintype="input"/>
+    </net>
+    <net code="26" name="/HL5_CS">
+      <node ref="J14" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="N_CS" pintype="input"/>
+    </net>
+    <net code="27" name="/HL5_PWM_IN">
+      <node ref="J14" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="IN_A" pintype="input"/>
+    </net>
+    <net code="28" name="/HL6_CS">
+      <node ref="J14" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U12" pin="6" pinfunction="N_CS" pintype="input"/>
+    </net>
+    <net code="29" name="/HL6_PWM_IN">
+      <node ref="J14" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="IN_B" pintype="input"/>
+    </net>
+    <net code="30" name="/HL7_CS">
+      <node ref="J14" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U9" pin="6" pinfunction="N_CS" pintype="input"/>
+    </net>
+    <net code="31" name="/HL7_PWM_IN">
+      <node ref="J14" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="IN_A" pintype="input"/>
+    </net>
+    <net code="32" name="/HLX_CS">
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U22" pin="6" pinfunction="N_CS" pintype="input"/>
+    </net>
+    <net code="33" name="/HLX_PWM_IN">
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R56" pin="1" pintype="passive"/>
+      <node ref="U21" pin="2" pinfunction="IN_A" pintype="input"/>
+    </net>
+    <net code="34" name="/MISO_1">
+      <node ref="J11" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U10" pin="7" pinfunction="MISO" pintype="input"/>
+      <node ref="U11" pin="7" pinfunction="MISO" pintype="input"/>
+      <node ref="U12" pin="7" pinfunction="MISO" pintype="input"/>
+      <node ref="U13" pin="18" pinfunction="Dout" pintype="tri_state"/>
+      <node ref="U14" pin="18" pinfunction="Dout" pintype="tri_state"/>
+      <node ref="U15" pin="18" pinfunction="Dout" pintype="tri_state"/>
+      <node ref="U20" pin="5" pinfunction="SDATA" pintype="tri_state"/>
+      <node ref="U22" pin="7" pinfunction="MISO" pintype="input"/>
+      <node ref="U6" pin="7" pinfunction="MISO" pintype="input"/>
+      <node ref="U7" pin="7" pinfunction="MISO" pintype="input"/>
+      <node ref="U8" pin="7" pinfunction="MISO" pintype="input"/>
+      <node ref="U9" pin="7" pinfunction="MISO" pintype="input"/>
+    </net>
+    <net code="35" name="/MOSFET_DMS">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q10" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="36" name="/MOSFET_GC">
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="37" name="/MOSFET_HL1">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="38" name="/MOSFET_HL2">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="39" name="/MOSFET_HL3">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="40" name="/MOSFET_HL4">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="41" name="/MOSFET_HL5">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="42" name="/MOSFET_HL6">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q8" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="43" name="/MOSFET_HL7">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="44" name="/MOSFET_HLX">
+      <node ref="J15" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q12" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="45" name="/MOSFET_uPC">
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q9" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="46" name="/MOSI_1">
+      <node ref="J11" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U13" pin="19" pinfunction="DIN" pintype="input"/>
+      <node ref="U14" pin="19" pinfunction="DIN" pintype="input"/>
+      <node ref="U15" pin="19" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="47" name="/RTD Readout/DMS_RTD_N">
+      <node ref="C39" pin="1" pintype="passive"/>
+      <node ref="C42" pin="2" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="U15" pin="10" pinfunction="AIN1" pintype="input"/>
+    </net>
+    <net code="48" name="/RTD Readout/DMS_RTD_P">
+      <node ref="C39" pin="2" pintype="passive"/>
+      <node ref="C43" pin="2" pintype="passive"/>
+      <node ref="R45" pin="1" pintype="passive"/>
+      <node ref="U15" pin="11" pinfunction="AIN2" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="/RTD Readout/DMS_Ref_N">
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="C41" pin="1" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="U15" pin="6" pinfunction="REFN0" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="/RTD Readout/DMS_Ref_P">
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="U15" pin="5" pinfunction="REFP0" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="/RTD Readout/GC_RTD_N">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U13" pin="10" pinfunction="AIN1" pintype="input"/>
+    </net>
+    <net code="52" name="/RTD Readout/GC_RTD_P">
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U13" pin="11" pinfunction="AIN2" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="/RTD Readout/GC_Ref_N">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U13" pin="6" pinfunction="REFN0" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="/RTD Readout/GC_Ref_P">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U13" pin="5" pinfunction="REFP0" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="/RTD Readout/uPC_RTD_N">
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="U14" pin="10" pinfunction="AIN1" pintype="input"/>
+    </net>
+    <net code="56" name="/RTD Readout/uPC_RTD_P">
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="U14" pin="11" pinfunction="AIN2" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="/RTD Readout/uPC_Ref_N">
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="U14" pin="6" pinfunction="REFN0" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="/RTD Readout/uPC_Ref_P">
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="U14" pin="5" pinfunction="REFP0" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="/SAFETY_12V">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K1" pin="1" pintype="passive"/>
+    </net>
+    <net code="60" name="/SAFETY_CS">
+      <node ref="J11" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U20" pin="6" pinfunction="CS" pintype="input"/>
+    </net>
+    <net code="61" name="/SCK_1">
+      <node ref="J11" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U10" pin="5" pinfunction="SCK" pintype="input"/>
+      <node ref="U11" pin="5" pinfunction="SCK" pintype="input"/>
+      <node ref="U12" pin="5" pinfunction="SCK" pintype="input"/>
+      <node ref="U13" pin="20" pinfunction="SCLK" pintype="input"/>
+      <node ref="U14" pin="20" pinfunction="SCLK" pintype="input"/>
+      <node ref="U15" pin="20" pinfunction="SCLK" pintype="input"/>
+      <node ref="U20" pin="4" pinfunction="SCLK" pintype="input"/>
+      <node ref="U22" pin="5" pinfunction="SCK" pintype="input"/>
+      <node ref="U6" pin="5" pinfunction="SCK" pintype="input"/>
+      <node ref="U7" pin="5" pinfunction="SCK" pintype="input"/>
+      <node ref="U8" pin="5" pinfunction="SCK" pintype="input"/>
+      <node ref="U9" pin="5" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="62" name="/Safet Cutoff/TC_SAFETY+">
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R49" pin="2" pintype="passive"/>
+      <node ref="R50" pin="2" pintype="passive"/>
+    </net>
+    <net code="63" name="/Safet Cutoff/TC_SAFETY-">
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R51" pin="1" pintype="passive"/>
+    </net>
+    <net code="64" name="/Safet Cutoff/V_CUTOFF">
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U19" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="65" name="/TC1+">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="T+" pintype="input"/>
+    </net>
+    <net code="66" name="/TC1-">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="T-" pintype="input"/>
+    </net>
+    <net code="67" name="/TC2+">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U10" pin="3" pinfunction="T+" pintype="input"/>
+    </net>
+    <net code="68" name="/TC2-">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U10" pin="2" pinfunction="T-" pintype="input"/>
+    </net>
+    <net code="69" name="/TC3+">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="T+" pintype="input"/>
+    </net>
+    <net code="70" name="/TC3-">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="T-" pintype="input"/>
+    </net>
+    <net code="71" name="/TC4+">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U11" pin="3" pinfunction="T+" pintype="input"/>
+    </net>
+    <net code="72" name="/TC4-">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U11" pin="2" pinfunction="T-" pintype="input"/>
+    </net>
+    <net code="73" name="/TC5+">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="T+" pintype="input"/>
+    </net>
+    <net code="74" name="/TC5-">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="T-" pintype="input"/>
+    </net>
+    <net code="75" name="/TC6+">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U12" pin="3" pinfunction="T+" pintype="input"/>
+    </net>
+    <net code="76" name="/TC6-">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U12" pin="2" pinfunction="T-" pintype="input"/>
+    </net>
+    <net code="77" name="/TC7+">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="T+" pintype="input"/>
+    </net>
+    <net code="78" name="/TC7-">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U9" pin="2" pinfunction="T-" pintype="input"/>
+    </net>
+    <net code="79" name="/TCX+">
+      <node ref="C60" pin="2" pintype="passive"/>
+      <node ref="J15" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U22" pin="3" pinfunction="T+" pintype="input"/>
+    </net>
+    <net code="80" name="/TCX-">
+      <node ref="C60" pin="1" pintype="passive"/>
+      <node ref="J15" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U22" pin="2" pinfunction="T-" pintype="input"/>
+    </net>
+    <net code="81" name="/uPC_PWM_IN">
+      <node ref="J14" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="IN_B" pintype="input"/>
+    </net>
+    <net code="82" name="/uPC_RTD+">
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+    </net>
+    <net code="83" name="/uPC_RTD++">
+      <node ref="J9" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U14" pin="12" pinfunction="AIN3" pintype="bidirectional"/>
+    </net>
+    <net code="84" name="/uPC_RTD-">
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+    </net>
+    <net code="85" name="/uPC_RTD--">
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R_REF2" pin="1" pintype="passive"/>
+    </net>
+    <net code="86" name="/uPC_RTD_CS">
+      <node ref="J14" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U14" pin="16" pinfunction="N_CS" pintype="input"/>
+    </net>
+    <net code="87" name="/uPC_RTD_DRDY">
+      <node ref="J14" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U14" pin="17" pinfunction="N_DRDY" pintype="output"/>
+    </net>
+    <net code="88" name="GNDREF">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C40" pin="1" pintype="passive"/>
+      <node ref="C41" pin="2" pintype="passive"/>
+      <node ref="C42" pin="1" pintype="passive"/>
+      <node ref="C43" pin="1" pintype="passive"/>
+      <node ref="C44" pin="1" pintype="passive"/>
+      <node ref="C45" pin="2" pintype="passive"/>
+      <node ref="C46" pin="2" pintype="passive"/>
+      <node ref="C48" pin="1" pintype="passive"/>
+      <node ref="C49" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C51" pin="1" pintype="passive"/>
+      <node ref="C52" pin="1" pintype="passive"/>
+      <node ref="C54" pin="2" pintype="passive"/>
+      <node ref="C55" pin="2" pintype="passive"/>
+      <node ref="C56" pin="1" pintype="passive"/>
+      <node ref="C57" pin="1" pintype="passive"/>
+      <node ref="C58" pin="1" pintype="passive"/>
+      <node ref="C59" pin="2" pintype="passive"/>
+      <node ref="C61" pin="2" pintype="passive"/>
+      <node ref="J12" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J12" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q10" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q12" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q7" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q8" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q9" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="R49" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R53" pin="2" pintype="passive"/>
+      <node ref="R56" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R_REF1" pin="2" pintype="passive"/>
+      <node ref="R_REF2" pin="2" pintype="passive"/>
+      <node ref="R_REF3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U10" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U11" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U12" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U13" pin="13" pinfunction="AVSS" pintype="power_in"/>
+      <node ref="U13" pin="2" pinfunction="DGND" pintype="power_in"/>
+      <node ref="U13" pin="3" pinfunction="CLK" pintype="input"/>
+      <node ref="U13" pin="8" pinfunction="VREFCOM" pintype="power_in"/>
+      <node ref="U14" pin="13" pinfunction="AVSS" pintype="power_in"/>
+      <node ref="U14" pin="2" pinfunction="DGND" pintype="power_in"/>
+      <node ref="U14" pin="3" pinfunction="CLK" pintype="input"/>
+      <node ref="U14" pin="8" pinfunction="VREFCOM" pintype="power_in"/>
+      <node ref="U15" pin="13" pinfunction="AVSS" pintype="power_in"/>
+      <node ref="U15" pin="2" pinfunction="DGND" pintype="power_in"/>
+      <node ref="U15" pin="3" pinfunction="CLK" pintype="input"/>
+      <node ref="U15" pin="8" pinfunction="VREFCOM" pintype="power_in"/>
+      <node ref="U16" pin="2" pinfunction="REF" pintype="input"/>
+      <node ref="U16" pin="3" pinfunction="-Vs" pintype="power_in"/>
+      <node ref="U17" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U18" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U19" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U20" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U21" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U22" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U23" pin="1" pinfunction="S1" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U6" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="89" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K1" pin="2" pintype="passive"/>
+      <node ref="U23" pin="6" pinfunction="D1" pintype="input"/>
+    </net>
+    <net code="90" name="Net-(K1-Pad3)">
+      <node ref="K1" pin="3" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="91" name="Net-(Q1-G)">
+      <node ref="Q1" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="92" name="Net-(Q2-G)">
+      <node ref="Q2" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="93" name="Net-(Q3-G)">
+      <node ref="Q3" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="94" name="Net-(Q4-G)">
+      <node ref="Q4" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="95" name="Net-(Q5-G)">
+      <node ref="Q5" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="96" name="Net-(Q6-G)">
+      <node ref="Q6" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="97" name="Net-(Q7-G)">
+      <node ref="Q7" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="98" name="Net-(Q8-G)">
+      <node ref="Q8" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="99" name="Net-(Q9-G)">
+      <node ref="Q9" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="100" name="Net-(Q10-G)">
+      <node ref="Q10" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="101" name="Net-(Q12-G)">
+      <node ref="Q12" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R59" pin="2" pintype="passive"/>
+    </net>
+    <net code="102" name="Net-(R52-Pad1)">
+      <node ref="R52" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U17" pin="6" pintype="output"/>
+    </net>
+    <net code="103" name="Net-(U1-OUT_A)">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="OUT_A" pintype="input"/>
+    </net>
+    <net code="104" name="Net-(U1-OUT_B)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="OUT_B" pintype="input"/>
+    </net>
+    <net code="105" name="Net-(U2-OUT_A)">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="OUT_A" pintype="input"/>
+    </net>
+    <net code="106" name="Net-(U2-OUT_B)">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="OUT_B" pintype="input"/>
+    </net>
+    <net code="107" name="Net-(U3-OUT_A)">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="OUT_A" pintype="input"/>
+    </net>
+    <net code="108" name="Net-(U3-OUT_B)">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="OUT_B" pintype="input"/>
+    </net>
+    <net code="109" name="Net-(U4-OUT_A)">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="OUT_A" pintype="input"/>
+    </net>
+    <net code="110" name="Net-(U4-OUT_B)">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="OUT_B" pintype="input"/>
+    </net>
+    <net code="111" name="Net-(U5-OUT_A)">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="OUT_A" pintype="input"/>
+    </net>
+    <net code="112" name="Net-(U5-OUT_B)">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="OUT_B" pintype="input"/>
+    </net>
+    <net code="113" name="Net-(U13-N_Reset)">
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="U13" pin="4" pinfunction="N_Reset" pintype="input"/>
+    </net>
+    <net code="114" name="Net-(U13-VREFOUT)">
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="U13" pin="7" pinfunction="VREFOUT" pintype="output"/>
+    </net>
+    <net code="115" name="Net-(U14-N_Reset)">
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="U14" pin="4" pinfunction="N_Reset" pintype="input"/>
+    </net>
+    <net code="116" name="Net-(U14-VREFOUT)">
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="U14" pin="7" pinfunction="VREFOUT" pintype="output"/>
+    </net>
+    <net code="117" name="Net-(U15-N_Reset)">
+      <node ref="R46" pin="2" pintype="passive"/>
+      <node ref="U15" pin="4" pinfunction="N_Reset" pintype="input"/>
+    </net>
+    <net code="118" name="Net-(U15-VREFOUT)">
+      <node ref="C44" pin="2" pintype="passive"/>
+      <node ref="U15" pin="7" pinfunction="VREFOUT" pintype="output"/>
+    </net>
+    <net code="119" name="Net-(U16-+IN)">
+      <node ref="C47" pin="2" pintype="passive"/>
+      <node ref="C49" pin="1" pintype="passive"/>
+      <node ref="R50" pin="1" pintype="passive"/>
+      <node ref="U16" pin="8" pinfunction="+IN" pintype="input"/>
+    </net>
+    <net code="120" name="Net-(U16--IN)">
+      <node ref="C47" pin="1" pintype="passive"/>
+      <node ref="C48" pin="2" pintype="passive"/>
+      <node ref="R51" pin="2" pintype="passive"/>
+      <node ref="U16" pin="1" pinfunction="-IN" pintype="input"/>
+    </net>
+    <net code="121" name="Net-(U16-SENSE)">
+      <node ref="U16" pin="5" pinfunction="SENSE" pintype="passive"/>
+      <node ref="U16" pin="6" pintype="output"/>
+      <node ref="U17" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U20" pin="3" pinfunction="Vin" pintype="input"/>
+    </net>
+    <net code="122" name="Net-(U17--)">
+      <node ref="R52" pin="2" pintype="passive"/>
+      <node ref="R53" pin="1" pintype="passive"/>
+      <node ref="U17" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="123" name="Net-(U18-VO)">
+      <node ref="C56" pin="2" pintype="passive"/>
+      <node ref="C57" pin="2" pintype="passive"/>
+      <node ref="C58" pin="2" pintype="passive"/>
+      <node ref="U18" pin="1" pinfunction="VO" pintype="power_out"/>
+      <node ref="U20" pin="1" pinfunction="VA" pintype="power_in"/>
+    </net>
+    <net code="124" name="Net-(U19-+)">
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U19" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="125" name="Net-(U21-OUT_A)">
+      <node ref="R59" pin="1" pintype="passive"/>
+      <node ref="U21" pin="7" pinfunction="OUT_A" pintype="input"/>
+    </net>
+    <net code="126" name="Net-(U23-G1)">
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U19" pin="6" pintype="output"/>
+      <node ref="U23" pin="2" pinfunction="G1" pintype="input"/>
+    </net>
+    <net code="127" name="unconnected-(J14-Pin_8-Pad8)">
+      <node ref="J14" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="128" name="unconnected-(U1-NC-Pad1)">
+      <node ref="U1" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="129" name="unconnected-(U1-NC-Pad8)">
+      <node ref="U1" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="130" name="unconnected-(U2-NC-Pad1)">
+      <node ref="U2" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="131" name="unconnected-(U2-NC-Pad8)">
+      <node ref="U2" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="132" name="unconnected-(U3-NC-Pad1)">
+      <node ref="U3" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="133" name="unconnected-(U3-NC-Pad8)">
+      <node ref="U3" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="134" name="unconnected-(U4-NC-Pad1)">
+      <node ref="U4" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="135" name="unconnected-(U4-NC-Pad8)">
+      <node ref="U4" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="136" name="unconnected-(U5-NC-Pad1)">
+      <node ref="U5" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="137" name="unconnected-(U5-NC-Pad8)">
+      <node ref="U5" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="138" name="unconnected-(U6-DNC-Pad8)">
+      <node ref="U6" pin="8" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="139" name="unconnected-(U7-DNC-Pad8)">
+      <node ref="U7" pin="8" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="140" name="unconnected-(U8-DNC-Pad8)">
+      <node ref="U8" pin="8" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="141" name="unconnected-(U9-DNC-Pad8)">
+      <node ref="U9" pin="8" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="142" name="unconnected-(U10-DNC-Pad8)">
+      <node ref="U10" pin="8" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="143" name="unconnected-(U11-DNC-Pad8)">
+      <node ref="U11" pin="8" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="144" name="unconnected-(U12-DNC-Pad8)">
+      <node ref="U12" pin="8" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="145" name="unconnected-(U13-AIN0-Pad9)">
+      <node ref="U13" pin="9" pinfunction="AIN0" pintype="input+no_connect"/>
+    </net>
+    <net code="146" name="unconnected-(U14-AIN0-Pad9)">
+      <node ref="U14" pin="9" pinfunction="AIN0" pintype="input+no_connect"/>
+    </net>
+    <net code="147" name="unconnected-(U15-AIN0-Pad9)">
+      <node ref="U15" pin="9" pinfunction="AIN0" pintype="input+no_connect"/>
+    </net>
+    <net code="148" name="unconnected-(U16-NC-Pad4)">
+      <node ref="U16" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="149" name="unconnected-(U17-NC-Pad1)">
+      <node ref="U17" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="150" name="unconnected-(U17-NC-Pad5)">
+      <node ref="U17" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="151" name="unconnected-(U17-NC-Pad8)">
+      <node ref="U17" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="152" name="unconnected-(U19-NC-Pad1)">
+      <node ref="U19" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="153" name="unconnected-(U19-NC-Pad5)">
+      <node ref="U19" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="154" name="unconnected-(U19-NC-Pad8)">
+      <node ref="U19" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="155" name="unconnected-(U21-IN_B-Pad4)">
+      <node ref="U21" pin="4" pinfunction="IN_B" pintype="input+no_connect"/>
+    </net>
+    <net code="156" name="unconnected-(U21-NC-Pad1)">
+      <node ref="U21" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="157" name="unconnected-(U21-NC-Pad8)">
+      <node ref="U21" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="158" name="unconnected-(U21-OUT_B-Pad5)">
+      <node ref="U21" pin="5" pinfunction="OUT_B" pintype="input+no_connect"/>
+    </net>
+    <net code="159" name="unconnected-(U22-DNC-Pad8)">
+      <node ref="U22" pin="8" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="160" name="unconnected-(U23-D2-Pad3)">
+      <node ref="U23" pin="3" pinfunction="D2" pintype="input+no_connect"/>
+    </net>
+    <net code="161" name="unconnected-(U23-G2-Pad5)">
+      <node ref="U23" pin="5" pinfunction="G2" pintype="input+no_connect"/>
+    </net>
+    <net code="162" name="unconnected-(U23-S2-Pad4)">
+      <node ref="U23" pin="4" pinfunction="S2" pintype="power_in+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,6 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"J1","HL1","Molex_SL_171975-0004_1x04_P2.54mm_Horizontal",142.447638,-62.933323,180.000000,bottom
+"J3","HL3","Molex_SL_171975-0004_1x04_P2.54mm_Horizontal",173.130888,-62.984073,180.000000,bottom
+"J5","HL5","Molex_SL_171975-0004_1x04_P2.54mm_Horizontal",188.908638,-104.127323,90.000000,bottom
+"J7","HL7","Molex_SL_171975-0004_1x04_P2.54mm_Horizontal",166.941638,-126.179323,0.000000,bottom
+"J8","GC_RTD","Molex_SL_171975-0006_1x06_P2.54mm_Horizontal",125.288638,-126.144323,0.000000,bottom

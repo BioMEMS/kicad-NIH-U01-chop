@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "NYSEARCH")(type "KiCad")(uri "C:/Users/Vimla/OneDrive/Documents/GitHub/kicad-shared/footprints/NYSEARCH.pretty")(options "")(descr ""))
+)
