@@ -4706,10 +4706,6 @@
 		(uuid "9c048fce-7c84-4cab-a5e8-295ae0b2da85")
 	)
 	(no_connect
-		(at 248.92 83.185)
-		(uuid "9ee96659-e888-4518-b60d-f4a332a26c89")
-	)
-	(no_connect
 		(at 132.08 87.63)
 		(uuid "bbeee93c-4227-4d47-bebd-4250d51f3cc9")
 	)
@@ -4748,6 +4744,10 @@
 	(no_connect
 		(at 187.96 64.77)
 		(uuid "f231d15a-7dbd-495c-a744-db71aa44883b")
+	)
+	(no_connect
+		(at 248.92 62.23)
+		(uuid "f816730e-9f52-4019-8245-c63142446f99")
 	)
 	(no_connect
 		(at 187.96 97.79)
@@ -4912,6 +4912,16 @@
 			(type default)
 		)
 		(uuid "2ba405b0-1957-4122-93a1-e5d71f935f41")
+	)
+	(wire
+		(pts
+			(xy 233.68 52.07) (xy 248.92 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c8bc62b-f83e-437f-95b4-71de33a8f429")
 	)
 	(wire
 		(pts
@@ -5342,6 +5352,16 @@
 			(type default)
 		)
 		(uuid "a80c51f6-9f15-4bee-a956-b3be9fa5dbaf")
+	)
+	(wire
+		(pts
+			(xy 237.49 54.61) (xy 248.92 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2e1c5b-3074-45b6-9981-48d1f0cd3ec6")
 	)
 	(wire
 		(pts
@@ -5793,6 +5813,16 @@
 		)
 		(uuid "6fa73a23-1f22-48de-a6b2-f7e24acad83b")
 	)
+	(label "SDA"
+		(at 248.92 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "71509ede-c81b-4d48-a0e9-b2aae0d543bb")
+	)
 	(label "HL4_PWM_IN"
 		(at 132.08 64.77 180)
 		(effects
@@ -5932,6 +5962,16 @@
 			(justify left bottom)
 		)
 		(uuid "b0728db8-76d4-4898-b088-c75c2a21a03e")
+	)
+	(label "SCL"
+		(at 248.92 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b109f966-4dd2-44dc-959f-448dbb7e0248")
 	)
 	(label "SCL"
 		(at 248.92 83.185 180)
@@ -6700,7 +6740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0500_1x05_P3.00mm_Horizontal"
 			(at 254 78.105 0)
 			(effects
 				(font
@@ -8544,6 +8584,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 254 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "501c6801-e4ff-4361-9a83-e4b2521adb97")
+		(property "Reference" "J8"
+			(at 256.54 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RTC"
+			(at 256.54 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 254 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e75bde7-e1ca-42d6-8e87-56faadd57102")
+		)
+		(pin "2"
+			(uuid "c31e98e5-5440-4291-890d-0156a095e76b")
+		)
+		(pin "3"
+			(uuid "764e629c-be69-439f-bf57-47b54d16bf84")
+		)
+		(pin "4"
+			(uuid "a812d127-a841-45c2-bb81-d4429db60deb")
+		)
+		(pin "5"
+			(uuid "3f084932-7830-4436-9881-4d33acd5e076")
+		)
+		(instances
+			(project "chop_microcontroller_board"
+				(path "/a68ac1cf-715c-4291-bf7b-de325bf0e054"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 20.32 24.765 0)
 		(unit 1)
@@ -8882,6 +9000,69 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 69.85 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "687262e5-0bc7-4237-a1b5-703aa973c856")
+		(property "Reference" "MK5"
+			(at 72.39 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mounting_Hole"
+			(at 72.39 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 69.85 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "chop_microcontroller_board"
+				(path "/a68ac1cf-715c-4291-bf7b-de325bf0e054"
+					(reference "MK5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 16.51 33.02 0)
 		(unit 1)
@@ -9106,7 +9287,7 @@
 				)
 			)
 		)
-		(property "Value" "470k"
+		(property "Value" "4.7k"
 			(at 55.88 81.915 90)
 			(effects
 				(font
@@ -9367,7 +9548,7 @@
 				)
 			)
 		)
-		(property "Value" "220k"
+		(property "Value" "2.2k"
 			(at 66.04 81.915 90)
 			(effects
 				(font
@@ -9633,6 +9814,71 @@
 			(project "microcontroller_board"
 				(path "/a68ac1cf-715c-4291-bf7b-de325bf0e054"
 					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 237.49 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d6914af-bb51-445d-b226-ac02c22af0fa")
+		(property "Reference" "#PWR09"
+			(at 237.49 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 237.49 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6627457-b21f-460f-9ee8-b9a1586120b6")
+		)
+		(instances
+			(project "chop_microcontroller_board"
+				(path "/a68ac1cf-715c-4291-bf7b-de325bf0e054"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -11298,6 +11544,72 @@
 			(project "microcontroller_board"
 				(path "/a68ac1cf-715c-4291-bf7b-de325bf0e054"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 233.68 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0cfa962-8d0b-49eb-88fb-dcb304f9d51b")
+		(property "Reference" "#PWR08"
+			(at 233.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 236.22 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a576bfd7-2e8a-4415-a5ef-58888afb6897")
+		)
+		(instances
+			(project "chop_microcontroller_board"
+				(path "/a68ac1cf-715c-4291-bf7b-de325bf0e054"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
