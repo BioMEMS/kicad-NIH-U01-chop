@@ -8631,7 +8631,7 @@
 		(property "Reference" "J2"
 			(at 1.92 -0.254 0)
 			(layer "B.SilkS")
-			(uuid "a0eb6b86-28fc-499b-a3b2-1ad71de4822b")
+			(uuid "8adfa8b9-bd87-4e54-96be-8108d8844706")
 			(effects
 				(font
 					(size 1 1)
@@ -8643,7 +8643,7 @@
 		(property "Value" "OLED"
 			(at 7.62 7.62 0)
 			(layer "B.Fab")
-			(uuid "e9c0a945-8bf1-4665-8255-be6275188ef4")
+			(uuid "3dd34548-c782-41f3-a159-7c4f7b8053b5")
 			(effects
 				(font
 					(size 1 1)
@@ -8656,7 +8656,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "be5cf304-3583-4c97-ad99-baada35e7a52")
+			(uuid "8a77c4f4-8750-460e-b7a2-ff893e8cd69c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8669,7 +8669,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2562402c-16f8-433d-9e6a-ca649c501f1f")
+			(uuid "b9c714c7-742e-44fa-b994-fb6a1ac072da")
 			(effects
 				(font
 					(size 1.27 1.27)
