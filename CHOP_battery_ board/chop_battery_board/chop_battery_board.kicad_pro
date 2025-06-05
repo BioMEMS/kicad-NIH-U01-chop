@@ -508,7 +508,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./chop_battery_board_gerber",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

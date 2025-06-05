@@ -1,0 +1,12 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"D2";"LED_0603_1608Metric";1;"LED_GREEN3.2V";;;
+2;"D3";"LED_0603_1608Metric";1;"LED-RED1.8V";;;
+3;"R4";"R_0603_1608Metric";1;"300-500 Ohm";;;
+4;"MK3,MK1,MK4,MK2";"MountingHole_3.2mm_M3";4;"Mounting_Hole";;;
+5;"R3";"R_0603_1608Metric";1;"270-300 Ohm";;;
+6;"U1";"SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm";1;"UA741CP";;;
+7;"D1";"D_SMA";1;"NRVBAF440 0.435V";;;
+8;"SW1";"Relay_DPDT_Omron_G6A";1;"SW_Slide_DPDT";;;
+9;"J1";"BarrelJack_CUI_PJ-102AH_Horizontal";1;"Barrel_Jack";;;
+10;"J14";"JST_EH_S2B-EH_1x02_P2.50mm_Horizontal";1;"BatteryToMainBoard";;;
+11;"J13";"JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal";1;"Li18650";;;

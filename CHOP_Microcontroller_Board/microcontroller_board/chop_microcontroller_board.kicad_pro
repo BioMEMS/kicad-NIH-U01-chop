@@ -512,7 +512,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./chop_microcontroller_board_gerber",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "chop_microcontroller_board.step",
