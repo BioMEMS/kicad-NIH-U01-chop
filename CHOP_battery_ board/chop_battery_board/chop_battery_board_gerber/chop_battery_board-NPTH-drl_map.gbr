@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.1*%
-%TF.CreationDate,2025-06-05T12:59:36-07:00*%
+%TF.CreationDate,2025-06-09T13:51:00-07:00*%
 %TF.ProjectId,chop_battery_board,63686f70-5f62-4617-9474-6572795f626f,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Drillmap*%
 %TF.FilePolarity,Positive*%
 %FSLAX45Y45*%
 G04 Gerber Fmt 4.5, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.1) date 2025-06-05 12:59:36*
+G04 Created by KiCad (PCBNEW 9.0.1) date 2025-06-09 13:51:00*
 %MOMM*%
 %LPD*%
 G01*

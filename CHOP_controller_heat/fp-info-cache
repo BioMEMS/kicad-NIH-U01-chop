@@ -1,4 +1,4 @@
-25418553601408472
+25423797533694737
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102101,6 +102101,27 @@ Varistor VF
 0
 2
 2
+chop_footprint_library
+128x64OLED
+
+
+0
+4
+4
+chop_footprint_library
+D_SMA
+Diode SMA (DO-214AC)
+Diode SMA (DO-214AC)
+0
+2
+2
+chop_footprint_library
+Relay_DPDT_Omron_G6A
+DPDT signal relay, Omron G6A/G6AU, 20x9.9x8.2mm https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6a.pdf
+Omron G6A Relay DPDT
+0
+6
+6
 chop_footprint_library
 U3V50F12StepUpReg
 

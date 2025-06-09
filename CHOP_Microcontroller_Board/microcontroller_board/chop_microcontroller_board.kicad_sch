@@ -4545,6 +4545,12 @@
 		(uuid "7efda715-2176-4693-be2d-ec4b32e379a5")
 	)
 	(junction
+		(at 34.29 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8738a1e0-e24a-40c6-acae-e606da399eac")
+	)
+	(junction
 		(at 109.22 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4621,20 +4627,12 @@
 		(uuid "18e9debe-3525-4eed-ae6b-8979b697e1b3")
 	)
 	(no_connect
-		(at 187.96 110.49)
-		(uuid "43d88849-a98f-42d8-805c-e3a0f285ab5a")
-	)
-	(no_connect
 		(at 132.08 85.09)
 		(uuid "550c06e1-3dfc-408a-82a4-72d943bf76bc")
 	)
 	(no_connect
 		(at 132.08 72.39)
 		(uuid "5c7a3d11-964f-4b6f-9f49-ecec9cbe5da4")
-	)
-	(no_connect
-		(at 41.91 55.88)
-		(uuid "6708982d-8602-4682-85f7-1d776429c0d4")
 	)
 	(no_connect
 		(at 132.08 67.31)
@@ -4661,10 +4659,6 @@
 		(uuid "813a569a-9f35-48e8-81ee-267057413d75")
 	)
 	(no_connect
-		(at 132.08 77.47)
-		(uuid "8229deb2-c4a1-454b-b815-4b3e1f499159")
-	)
-	(no_connect
 		(at 102.87 44.45)
 		(uuid "88e6361d-0b77-49b4-8fb6-3526af79c6ec")
 	)
@@ -4683,10 +4677,6 @@
 	(no_connect
 		(at 187.96 67.31)
 		(uuid "bc006812-88db-4b4f-8360-90b1da9fa071")
-	)
-	(no_connect
-		(at 132.08 80.01)
-		(uuid "bc4ecf70-8ca7-43f3-9d01-92efef5fb137")
 	)
 	(no_connect
 		(at 41.91 58.42)
@@ -5026,6 +5016,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 104.14) (xy 43.18 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e72d4f1-ebde-42ad-8fd7-530839a9594d")
+	)
+	(wire
+		(pts
 			(xy 247.65 143.51) (xy 271.78 143.51)
 		)
 		(stroke
@@ -5126,13 +5126,23 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 103.505) (xy 34.29 109.855)
+			(xy 34.29 103.505) (xy 34.29 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7bb85e64-7aea-4e10-83cb-ccbe976c4d11")
+	)
+	(wire
+		(pts
+			(xy 34.29 104.14) (xy 34.29 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8233bf45-efd5-415a-ba00-7126ba7347d9")
 	)
 	(wire
 		(pts
@@ -5584,7 +5594,7 @@
 		)
 		(uuid "f4d9ffb6-86dd-4dbf-9602-a970c2e0f529")
 	)
-	(label "HL4_CS"
+	(label "uPC_RTD_CS"
 		(at 132.08 107.95 180)
 		(effects
 			(font
@@ -5633,6 +5643,16 @@
 			(justify left bottom)
 		)
 		(uuid "211c3552-aa00-4093-8096-4e21622ef62f")
+	)
+	(label "uPC_RTD_DRDY"
+		(at 41.91 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b667ef3-2f05-45d8-ae5e-1b8230e2558a")
 	)
 	(label "HL2_CS"
 		(at 29.21 109.855 180)
@@ -5704,7 +5724,7 @@
 		)
 		(uuid "53269f11-150e-453c-9ace-b44a5eb6a6b7")
 	)
-	(label "HL4_CS"
+	(label "uPC_RTD_CS"
 		(at 29.21 122.555 180)
 		(effects
 			(font
@@ -5734,7 +5754,7 @@
 		)
 		(uuid "5ea63b34-f37b-4427-ad59-543ef69c5f63")
 	)
-	(label "HL4_PWM_IN"
+	(label "uPC_PWM_IN"
 		(at 41.91 53.34 0)
 		(effects
 			(font
@@ -5784,7 +5804,7 @@
 		)
 		(uuid "71509ede-c81b-4d48-a0e9-b2aae0d543bb")
 	)
-	(label "HL4_PWM_IN"
+	(label "uPC_PWM_IN"
 		(at 132.08 64.77 180)
 		(effects
 			(font
@@ -5894,7 +5914,7 @@
 		)
 		(uuid "9e3a4224-d026-43bb-a93e-a20c06b04614")
 	)
-	(label "HL4_CS"
+	(label "uPC_RTD_CS"
 		(at 29.21 55.88 180)
 		(effects
 			(font
@@ -5983,6 +6003,26 @@
 			(justify right bottom)
 		)
 		(uuid "c4c8ba00-477f-4b70-b6ed-1b5e28458082")
+	)
+	(label "uPC_RTD_DRDY"
+		(at 187.96 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c681a2a1-a986-4370-9401-f6c047831fb0")
+	)
+	(label "uPC_RTD_DRDY"
+		(at 48.26 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd563125-6083-4e75-b0e8-c4d9ef38817a")
 	)
 	(label "SCK_1"
 		(at 41.91 43.18 0)
@@ -7977,6 +8017,72 @@
 			(project "microcontroller_board"
 				(path "/a68ac1cf-715c-4291-bf7b-de325bf0e054"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NYSEARCH:R_Small")
+		(at 45.72 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ec444a2-65f2-42ae-bc1f-3d65bf3559a0")
+		(property "Reference" "R8"
+			(at 45.72 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 45.72 102.235 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NYSEARCH:R_0603_1608Metric"
+			(at 45.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c784965f-baa9-407a-ac77-a994255f44c4")
+		)
+		(pin "2"
+			(uuid "bce26017-ce02-45d9-a1e5-425c7d799f6a")
+		)
+		(instances
+			(project "chop_microcontroller_board"
+				(path "/a68ac1cf-715c-4291-bf7b-de325bf0e054"
+					(reference "R8")
 					(unit 1)
 				)
 			)

@@ -110,7 +110,7 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -138,12 +138,12 @@
 			(hidednponfab no)
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "./chop_controller_heat_gerber")
 		)
 	)
 	(net 0 "")
@@ -9611,7 +9611,7 @@
 		(property "Reference" "MK3"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
-			(uuid "6039c988-abfd-4b2d-83b8-8e3f4034fab9")
+			(uuid "04299c26-3db0-4894-84f9-3177dd697d3e")
 			(effects
 				(font
 					(size 1 0.65)
@@ -9622,7 +9622,7 @@
 		(property "Value" "Mounting_Hole"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "34e0e941-7083-4e97-89ec-29d1c6360c99")
+			(uuid "6f392b2d-2821-4653-b151-40d79f6fc265")
 			(effects
 				(font
 					(size 1 0.65)
@@ -9634,7 +9634,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "439b1839-8e45-46b7-915a-d0fbd97819a8")
+			(uuid "2db75a4e-5637-439f-b064-48e03cb52180")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9646,7 +9646,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dfece12e-f298-46cb-ad9a-48ac2cae9577")
+			(uuid "1a060de4-03b7-4a7c-b5c2-92b5f1041796")
 			(effects
 				(font
 					(size 1.27 1.27)

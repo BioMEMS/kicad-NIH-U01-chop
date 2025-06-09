@@ -503,7 +503,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./chop_controller_heat_gerber",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "chop-controller-heat.step",
